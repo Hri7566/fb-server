@@ -11,7 +11,7 @@ services:
       DEBUG: "true"
       PACKWIZ_URL: "https://raw.githubusercontent.com/Hri7566/firebomb/staging/pack.toml"
       VERSION: "1.18.2"
-      FORGE_VERSION: "40.2.2"
+      FORGE_VERSION: "40.2.4"
     volumes:
       - ./data:/data
       - ./config:/data/config
