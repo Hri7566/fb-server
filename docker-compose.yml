@@ -14,7 +14,7 @@ services:
       EULA: "TRUE"
       TYPE: FORGE
       DEBUG: "true"
-      PACKWIZ_URL: "https://git.hri7566.info/Hri7566/firebomb/raw/branch/staging/pack.toml"
+      PACKWIZ_URL: "https://raw.githubusercontent.com/Hri7566/firebomb/main/pack.toml"
       VERSION: "1.18.2"
       FORGE_VERSION: "40.2.14"
       MEMORY: "10G"
