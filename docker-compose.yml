@@ -3,17 +3,24 @@ services:
     image: itzg/minecraft-server
     tty: true
     stdin_open: true
+    restart: always
+    user: root
     ports:
       - "25565:25565"
+      - "8123:8123"
+      - "24454:24454"
+      - "24454:24454/udp"
     environment:
       EULA: "TRUE"
       TYPE: FORGE
       DEBUG: "true"
-      PACKWIZ_URL: "https://raw.githubusercontent.com/Hri7566/firebomb/staging/pack.toml"
+      PACKWIZ_URL: "https://git.hri7566.info/Hri7566/firebomb/raw/branch/staging/pack.toml"
       VERSION: "1.18.2"
-      FORGE_VERSION: "40.2.4"
-      MEMORY: "12G"
+      FORGE_VERSION: "40.2.14"
+      MEMORY: "10G"
+      USE_AIKAR_FLAGS: "true"
     volumes:
       - ./data:/data
       - ./config:/data/config
       - ./world:/data/world
+      - ./serverconfig:/data/world/serverconfig

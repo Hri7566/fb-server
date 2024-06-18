@@ -1,0 +1,22 @@
+
+#Wire Settings
+[wires]
+
+	#RS Cable Cable Stettings
+	[wires.rs]
+		#RS Cable Cable Max Length
+		#Range: 4 ~ 256
+		rsMaxLen = 16
+
+	#Logic Cable Cable Stettings
+	[wires.id]
+		#Logic Cable Cable Max Length
+		#Range: 4 ~ 256
+		idMaxLen = 16
+
+	#Networking Cable Cable Stettings
+	[wires.cc]
+		#Networking Cable Cable Max Length
+		#Range: 4 ~ 256
+		ccMaxLen = 16
+

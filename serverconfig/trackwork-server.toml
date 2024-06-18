@@ -1,0 +1,15 @@
+#.
+#Enable track Kinetic Stress
+enableTrackStress = false
+#.
+#Stress multiplier, units SU/ton
+#Range: 0.0 ~ 3.4028234663852886E38
+stressMultiplier = 0.019999999552965164
+#.
+#Maximum Track RPM, 1 RPM = 0.052/0.104 m/s
+#Range: > 1
+maxTrackRPM = 256
+#.
+#Enable entire tracks being thrown off by explosions
+enableTrackThrow = false
+
