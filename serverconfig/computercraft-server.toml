@@ -1,7 +1,7 @@
 #The disk space limit for computers and turtles, in bytes.
-computer_space_limit = 1000000
+computer_space_limit = 2000000
 #The disk space limit for floppy disks, in bytes.
-floppy_space_limit = 125000
+floppy_space_limit = 4000000
 #Set how many files a computer can have open at the same time. Set to 0 for unlimited.
 #Range: > 0
 maximum_open_files = 128
@@ -27,7 +27,7 @@ command_require_creative = true
 	#computers can run at once, but may induce lag. Please note that some mods may
 	#not work with a thread count higher than 1. Use with caution.
 	#Range: > 1
-	computer_threads = 1
+	computer_threads = 2
 	#The maximum time that can be spent executing tasks in a single tick, in
 	#milliseconds.
 	#Note, we will quite possibly go over this limit, as there's no way to tell how
@@ -52,10 +52,10 @@ command_require_creative = true
 	#will be queued, and sent when the running requests have finished. Set to 0 for
 	#unlimited.
 	#Range: > 0
-	max_requests = 16
+	max_requests = 32
 	#The number of websockets a computer can have open at one time. Set to 0 for unlimited.
 	#Range: > 1
-	max_websockets = 4
+	max_websockets = 256
 
 	#Limits bandwidth used by computers.
 	[http.bandwidth]
@@ -160,7 +160,7 @@ command_require_creative = true
 	#Maximum size of monitors (in blocks).
 	[term_sizes.monitor]
 		#Range: 1 ~ 32
-		width = 8
+		width = 16
 		#Range: 1 ~ 32
-		height = 6
+		height = 12
 
