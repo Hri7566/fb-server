@@ -176,75 +176,75 @@
 	[Machines.Furnace]
 		#This sets the base power consumption (RF/t) for the Redstone Furnace.
 		#Range: 1 ~ 200
-		"Base Power" = 20
+		"Base Power" = 200
 
 	[Machines.Sawmill]
 		#This sets the base power consumption (RF/t) for the Sawmill.
 		#Range: 1 ~ 200
-		"Base Power" = 20
+		"Base Power" = 200
 
 	[Machines.Pulverizer]
 		#This sets the base power consumption (RF/t) for the Pulverizer.
 		#Range: 1 ~ 200
-		"Base Power" = 20
+		"Base Power" = 200
 
 	[Machines.Smelter]
 		#This sets the base power consumption (RF/t) for the Induction Smelter.
 		#Range: 1 ~ 200
-		"Base Power" = 20
+		"Base Power" = 200
 
 	[Machines.Insolator]
 		#This sets the base power consumption (RF/t) for the Phytogenic Insolator.
 		#Range: 1 ~ 200
-		"Base Power" = 20
+		"Base Power" = 200
 
 	[Machines.Centrifuge]
 		#This sets the base power consumption (RF/t) for the Centrifugal Separator.
 		#Range: 1 ~ 200
-		"Base Power" = 20
+		"Base Power" = 200
 
 	[Machines.Press]
 		#This sets the base power consumption (RF/t) for the Multiservo Press.
 		#Range: 1 ~ 200
-		"Base Power" = 20
+		"Base Power" = 200
 
 	[Machines.Crucible]
 		#This sets the base power consumption (RF/t) for the Magma Crucible.
 		#Range: 1 ~ 200
-		"Base Power" = 80
+		"Base Power" = 200
 
 	[Machines.Chiller]
 		#This sets the base power consumption (RF/t) for the Blast Chiller.
 		#Range: 1 ~ 200
-		"Base Power" = 20
+		"Base Power" = 200
 
 	[Machines.Refinery]
 		#This sets the base power consumption (RF/t) for the Fractionating Still.
 		#Range: 1 ~ 200
-		"Base Power" = 20
+		"Base Power" = 200
 
 	[Machines.Pyrolyzer]
 		#This sets the base power consumption (RF/t) for the Pyrolyzer.
 		#Range: 1 ~ 200
-		"Base Power" = 5
+		"Base Power" = 50
 
 	[Machines.Bottler]
 		#This sets the base power consumption (RF/t) for the Fluid Encapsulator.
 		#Range: 1 ~ 200
-		"Base Power" = 20
+		"Base Power" = 200
 
 	[Machines.Brewer]
 		#This sets the base power consumption (RF/t) for the Alchemical Imbuer.
 		#Range: 1 ~ 200
-		"Base Power" = 20
+		"Base Power" = 200
 
 	[Machines.Crystallizer]
 		#This sets the base power consumption (RF/t) for the Crystallizer.
 		#Range: 1 ~ 200
-		"Base Power" = 5
+		"Base Power" = 50
 
 	[Machines.Crafter]
 		#This sets the base power consumption (RF/t) for the Sequential Fabricator.
 		#Range: 1 ~ 200
-		"Base Power" = 20
+		"Base Power" = 200
 
