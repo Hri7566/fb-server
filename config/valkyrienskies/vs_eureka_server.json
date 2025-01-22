@@ -13,7 +13,7 @@
   "engineBoost" : 0.5,
   "engineBoostOffset" : 3,
   "engineBoostExponentialPower" : 1.0E-4,
-  "maxCasualSpeed" : 15.0,
+  "maxCasualSpeed" : 25.0,
   "stabilizationSpeed" : 10.0,
   "floaterBuoyantFactorPerKg" : 50000.0,
   "maxFloaterBuoyantFactor" : 1.0,
