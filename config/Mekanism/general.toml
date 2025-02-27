@@ -4,9 +4,9 @@
 	#Log Mekanism packet names. Debug setting.
 	logPackets = false
 	#Disable to make the anchor upgrade not do anything.
-	allowChunkloading = true
+	allowChunkloading = false
 	#Enable this to allow dragging items from JEI into the target slot of Digital Miner filters.
-	easyMinerFilters = false
+	easyMinerFilters = true
 	#How many ticks must pass until a block's active state is synced with the client, if it has been rapidly changing.
 	blockDeactivationDelay = 60
 	#Any mod ids added to this list will not be able to have any of their blocks, picked up by the cardboard box. For example: ["mekanism"]
@@ -19,7 +19,7 @@
 	#How much Boiler heat is immediately usable to convert water to steam.
 	boilerWaterConductivity = 0.7
 	#Amount of heat produced per fuel tick of a fuel's burn time in the Fuelwood Heater.
-	heatPerFuelTick = 400.0
+	heatPerFuelTick = 4000.0
 	#Number of ticks to burn an item at in a Fuelwood Heater. Use this config option to effectively make Fuelwood Heater's burn faster but produce the same amount of heat per item.
 	#Range: 1 ~ 1000
 	fuelwoodTickMultiplier = 1
