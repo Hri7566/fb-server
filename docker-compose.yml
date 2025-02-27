@@ -6,7 +6,7 @@ services:
     restart: always
     user: root
     ports:
-      - "25565:25565"
+      - "25566:25565"
       - "8123:8123"
       - "24454:24454"
       - "24454:24454/udp"
@@ -14,10 +14,10 @@ services:
       EULA: "TRUE"
       TYPE: FORGE
       DEBUG: "true"
-      PACKWIZ_URL: "https://raw.githubusercontent.com/Hri7566/firebomb/main/pack.toml"
+      #PACKWIZ_URL: "https://raw.githubusercontent.com/Hri7566/firebomb/main/pack.toml"
       VERSION: "1.18.2"
       FORGE_VERSION: "40.2.14"
-      MEMORY: "10G"
+      MEMORY: "6G"
       USE_AIKAR_FLAGS: "true"
     volumes:
       - ./data:/data
