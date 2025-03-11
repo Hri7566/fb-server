@@ -2,6 +2,32 @@
   {
     "user": {
       "type": "player",
+      "name": "Hri7566",
+      "uniqueId": "b8dafb87-d920-4b25-b8da-2fbe254c1519"
+    },
+    "time": 1740946984444,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/rFA5jeslpg"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Khorne_The_Proto",
+      "uniqueId": "1b666966-9d61-42a9-b580-ac3181f8ebd9"
+    },
+    "time": 1740945799300,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Y5FIIvPD1f"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
       "name": "Khorne_The_Proto",
       "uniqueId": "1b666966-9d61-42a9-b580-ac3181f8ebd9"
     },
